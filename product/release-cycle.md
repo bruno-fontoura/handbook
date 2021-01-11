@@ -39,7 +39,7 @@ In general, if it’s a new feature, it’ll be postponed for the next release o
 
 ## When do we plan the release features/improvements/bugs?
 
-Every month can be a different day between 20th and 27th to plan the next release. The leader of the team will schedule the team and the all team will be able to participate of the planning. At this moment, most of the issues will be assigned to each member of the team. As we can see in the following example \(in April, 2018\):
+Every month can be a different day between 20th and 27th to plan the next release. The leader of the team will schedule with the team and then, all team will be able to participate the planning. At this moment, most of the issues will be assigned to each member of the team. As we can see in the following example \(in April, 2018\):
 
 ![chart](../.gitbook/assets/release-cycle.png)
 
@@ -52,7 +52,7 @@ Every release is a project in GitHub. There are 6 columns on each project \(boar
 * **To-do**: after planning, all to-do issues come here;
 * **In progress**: when something is in progress, the issue/PR will be on this board;
 * **Review/QA**: when something is done and waiting for review or waiting to be tested, the issue/PR will be on this board;
-* **Ready to Merge**: when PR is reviewed and approved it will be o here waiting to final adjustments \(title, related issues, etc\) and merge;
+* **Ready to Merge**: when PR is reviewed and approved it will be over here waiting to final adjustments \(title, related issues, etc\) and merge;
 * **Done**: when the issue is closed \(merged\), the issue/PR will be on this board;
 
 ## What happens with PRs and Issues not listed in a release?
@@ -61,13 +61,13 @@ Pull Requests and Issues not listed in the board will not be merged to that rele
 
 ## What happens when the release candidate is shipped?
 
-All changes in develop needs to be merged into the branch release-candidate at this point. A new tag needs to be created following the pattern: `2.1.0-rc1`.
+All changes in development needs to be merged into the branch release-candidate at this point. A new tag needs to be created following the pattern: `2.1.0-rc1`.
 
-All the remaining Issues and PRs in the current board should be moved to the next board and assigned the the label `board-postponed`, leaving the current board for Issues and PRs related to the release candidate process only.
+All the remaining Issues and PRs in the current board should be moved to the next board and assigned the the label `board-postponed`, leaving the current board of Issues and PRs related to the release candidate process only.
 
 ## What happens if there’s no bug/crash on the release candidate?
 
-That’s great, congrats! This time can be used in a creative way: write more tests, code maintenance that sometimes is required, resolving issues to the next release, planning, ideas and experiments.
+That’s great, congrats! This time can be used in a creative way: write more tests, code maintenance that sometimes is required, resolving issues for the next release, planning, ideas and experiments.
 
 ## What happens when a release candidate fix is not done before the release?
 
@@ -79,7 +79,7 @@ Project and milestones are closed, all the changes are merged to the branch mast
 
 ## Hotfix Releases
 
-### When a hotfix release happen?
+### When does a hotfix release happen?
 
 A Hotfix release will happen when a critical bug or crash is found in the production version of the app.
 
