@@ -10,7 +10,7 @@ The "area" tag is related to which piece of Rocket.Chat product/services the iss
 * Marketplace 
 * Omnichannel 
 * Authentication
-*  Apps / Integrations 
+* Apps / Integrations 
 * Data Import / Export 
 * Scalability 
 * Deployment 
